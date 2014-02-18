@@ -10,5 +10,15 @@ gitlab_push:
     token:        PleaseInsertTheSlackIncomingWebHooksTokenHere
     color:        good
 
+runscope:
+    channel:        general
+    pass_message:   "»%s« test passed."
+    fail_message:   "»%s« test failed."
+    token:          PleaseInsertTheSlackIncomingWebHooksTokenHere
+    username:       Runscope
+    pass_color:     good
+    fail_color:     danger
+    post_fail_only: true
+
 # @todo : Add others Income/outgoing services parameters
 
